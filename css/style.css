@@ -1,0 +1,63 @@
+* {box-sizing:border-box;}
+body {background-color: #CCC;}
+ul {list-style:none; padding:0; text-align:center;}
+.main-content {
+    max-width:80%;
+    margin: 0 auto;
+
+}
+
+.img-wrapper {
+    max-width:600px;
+    margin:0 auto;
+
+}
+
+.greeting {
+    color:black;
+    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    text-align: center;
+}
+
+.col1 >h3 , .col2 >h3  {
+    text-align:center;
+}
+
+.col1, .col2 {
+    padding:.85em;
+    margin-top:1em;
+    display:inline-block;
+    vertical-align:top;
+}
+.col1 {
+    width:28%;
+    margin-right:.25em;
+}
+
+.col2{
+    width:58%;
+    margin-left:.25em;
+}
+
+.wikipedia-container {
+    width:290px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.nytimes-container {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
